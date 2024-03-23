@@ -1,5 +1,5 @@
 body {
-    background: #8C52FF;
+    background: #65498c;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
@@ -22,6 +22,9 @@ body {
 h2, label, p {
     color: #fff;
     margin: 8px 0;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 input {
@@ -97,20 +100,8 @@ button:hover {
 
 
 /* ----------------------------------------------------------------------------------------- */
-h1 {
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #f8f8ff;
-}
 
-#weatherContent {
-    display: none;
-}
 
-.navbar {
-    height: 150px!important;
-}
 
 #cityDetail,
 #uvIndexColor,
@@ -130,11 +121,6 @@ li {
 
 #fiveDay .card {
     border: 1px solid white!important;
-}
-
-#searchHistory li {
-    background-color: #7ba0d8;
-    color: #f8f8ff!important;
 }
 
 p {
