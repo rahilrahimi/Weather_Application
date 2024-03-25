@@ -29,7 +29,8 @@ h2, label, p {
 
 input {
     width: calc(100% - 16px);
-    padding: 8px;
+    padding: 18px;
+    font-size: 28px;
     box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid white;
@@ -37,7 +38,7 @@ input {
 }
 
 button {
-    background: #debff4;
+    background: #c896ec;
     color: white;
     padding: 10px;
     border: none;
@@ -45,7 +46,15 @@ button {
     cursor: pointer;
     margin-top: 20px;
     width: 100px;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+#fiveDay {
+    color: #fff;
+    margin: 8px 0;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 button:hover {
