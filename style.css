@@ -1,11 +1,18 @@
 body {
     background: #65498c;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3, h4, h5 {
+    color: #fffaf8;
 }
 
 #weather-container {
@@ -101,50 +108,6 @@ button:hover {
     height: 30px;
     margin-bottom: 5px;
 }
-
-#hourly-heading {
-    color: #fff;
-    margin-top: 10px;
-}
-
-
-/* ----------------------------------------------------------------------------------------- */
-
-
-
-#cityDetail,
-#uvIndexColor,
-li {
-    color: #4D4F53!important;
-}
-
-#searchResults,
-#cityDetail,
-.card {
-    background-color: #4d6fdd!important;
-}
-
-#searchResults {
-    height: 100vh;
-}
-
-#fiveDay .card {
-    border: 1px solid white!important;
-}
-
-p {
-    color: #e6dad9;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Raleway', sans-serif;
-}
-
-h2, h3, h4, h5 {
-    color: #f8f8ff;
-}
-
-
 
 
 
